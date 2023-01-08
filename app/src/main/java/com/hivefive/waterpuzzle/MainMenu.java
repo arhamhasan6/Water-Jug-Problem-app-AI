@@ -113,4 +113,12 @@ public class MainMenu extends AppCompatActivity {
         finish();
 
     }
+
+
+    public void back(View view) {
+        Intent intent = new Intent(getApplicationContext(), MainMenu.class);
+        startActivity(intent);
+        finish();
+
+    }
 }
